@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres     # <— подключаемся к контейнеру через localhost
+    username: postgres
+    password: postgres
