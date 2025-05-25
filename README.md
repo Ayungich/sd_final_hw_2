@@ -64,10 +64,6 @@ docker compose up -d postgres   # run only the DB
 
 (Gateway does not aggregate Swagger by default.)
 
-### Postman
-
-Import [`postman/text-scanner.postman_collection.json`](postman/text-scanner.postman_collection.json) and run the collection — four requests cover the whole flow:
-
 1. **Upload TXT**  
 2. **Analyze**  
 3. **Get analysis**  
